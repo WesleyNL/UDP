@@ -17,7 +17,15 @@ Não informa aos usuário a desconexão do usuário, permitindo assim enviar men
 Como fazer a implementação em qualquer outra interface java:
 Implementar o InputHandler para que assim seja possível enviar mensagens as pessoas
 
-Criar um Listener e informar como ele deve agir quando receber um evento (Esse evento tem um método para recuperação de mensagem getMessage())
+Criar um Listener e informar como ele deve agir quando receber um evento (Esse evento tem um método para recuperação de mensagem getMessage()).
+Exemplo:
+Dispatcher.getInstance().addListener(new Listener() {
+			@Override
+			public void recebeMensagem(MessageEvent evento) {
+				telaUser.insereMensagem(evento.getMessage());
+				System.out.println(evento.getMessage());
+			}
+});
 
 Crie e inicie a thread server
 Crie e inicie a thread client
