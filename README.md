@@ -2,7 +2,7 @@
 
 Esse projeto foi realizado na disciplina de Sistemas distribuídos do professor Evandro Luquini. Ele é uma versão modificada do projeto: https://github.com/brunoapimentel/chat
 
-# Anotações sobre dúvidas do projeto:
+# Modificações no projeto e algumas dúvidas
 
 É necessário o download da API de JSON: http://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-core
 
