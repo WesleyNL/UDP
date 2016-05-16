@@ -2,7 +2,7 @@
 
 Esse projeto foi realizado na disciplina de Sistemas distribuídos do professor Evandro Luquini. Ele é uma versão modificada do projeto: https://github.com/brunoapimentel/chat
 
-Anotações sobre dúvidas do projeto:
+# Anotações sobre dúvidas do projeto:
 
 É necessário o download da API de JSON: http://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-core
 
@@ -20,7 +20,7 @@ Projeto em si:
 
 Não informa aos usuário a desconexão do usuário, permitindo assim enviar mensagem a pessoas offline
 
-Como fazer a implementação em qualquer outra interface java:
+# Como fazer a implementação em qualquer outra interface java:
 
 Implementar o InputHandler para que assim seja possível enviar mensagens as pessoas
 
