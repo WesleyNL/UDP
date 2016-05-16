@@ -1,9 +1,9 @@
 # UDP
 
-Esse projeto foi realizado na disciplina de Sistemas distribuídos do professor Evandro Luquini
-Ele é uma versão modificada do projeto: https://github.com/brunoapimentel/chat
+Esse projeto foi realizado na disciplina de Sistemas distribuídos do professor Evandro Luquini. Ele é uma versão modificada do projeto: https://github.com/brunoapimentel/chat
 
 Anotações sobre dúvidas do projeto:
+
 É necessário o download da API de JSON: http://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-core
 
 InputHandler.java:
@@ -13,12 +13,15 @@ Linha 28 - Verifica se o usuário não existe, mas deixa enviar a mensagem?
 Linha 35 - Modificamos a classe para que encontre usuários não somente por IP, e também por seu nickname
 
 Robot.java
+
 Robo deixou de ser usado
 
 Projeto em si:
+
 Não informa aos usuário a desconexão do usuário, permitindo assim enviar mensagem a pessoas offline
 
 Como fazer a implementação em qualquer outra interface java:
+
 Implementar o InputHandler para que assim seja possível enviar mensagens as pessoas
 
 Criar um Listener e informar como ele deve agir quando receber um evento (Esse evento tem um método para recuperação de mensagem getMessage()).
