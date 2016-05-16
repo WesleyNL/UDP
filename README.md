@@ -23,7 +23,7 @@ Criar um Listener e informar como ele deve agir quando receber um evento (Esse e
 Crie e inicie a thread server
 Crie e inicie a thread client
 
-Para enviar uma mensagem é necessário chamar o método readInput(String) do InputHandler, a String enviada tem que estar no formato: <IP ou Nickname do alvo>/<Mensagem para enviar>
+Para enviar uma mensagem é necessário chamar o método readInput(String) do InputHandler, a String enviada tem que estar no formato: [IP ou Nickname do alvo]/[Mensagem para enviar]
 Exemplo:
 "Nicholas/Essa mensagem é um teste";
 "Wesley/Vai safadão";
