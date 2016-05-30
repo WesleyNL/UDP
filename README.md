@@ -32,7 +32,7 @@ Para enviar uma mensagem é necessário chamar o método readInput(String) do In
 Exemplo:
 
 "Nicholas/Essa mensagem é um teste"
-"Wesley/Vai safadão"
+"Wesley/Opa, enviando mensagem!"
 
 Para mostrar uma mensagem é necessário pegar a instância de Dispatcher e executar o método dispatchEvent(new MessageEvent(String mensagem));
 
